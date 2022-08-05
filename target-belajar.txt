@@ -2,4 +2,7 @@ CAPAIAN PEMBELAJARAN
  - Memahami pengertian, fungsi, dan penggunaan HTML5 dan CSS3 (Bahasa UI)
  - Memahami pengertian, fungsi, dan penggunaan Git dan GitHub
  - Memahami pengertian dan tujuan Algoritma
- - Coming soon...
+ - Memahami pengertian, fungsi, dan penggunaan Javascript (Bahasa Pemrograman)
+ - Memahami pengertian, fungsi, dan penggunaan DOM dan Regular Expression
+ - Dapat melakukan testing dan deploy website
+ - Final project : Membuat Landing Pages Online Portofolio
