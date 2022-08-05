@@ -1,2 +1,3 @@
 TARGET WAKTU BELAJAR
  - Saya harus bisa menyelesaikan pelatihan fundamental untuk menjadi web programmer ini sampai dengan tanggal 14 Agustus 2022
+ - Dengan demikian, saya harus bisa mengatur sebaik mungkin untuk mempelajari semua materi yang diberikan oleh Hacktiv8
