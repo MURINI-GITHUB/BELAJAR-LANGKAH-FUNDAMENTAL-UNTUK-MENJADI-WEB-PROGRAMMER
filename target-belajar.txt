@@ -1,0 +1,5 @@
+CAPAIAN PEMBELAJARAN
+ - Memahami pengertian, fungsi, dan penggunaan HTML5 dan CSS3 (Bahasa UI)
+ - Memahami pengertian, fungsi, dan penggunaan Git dan GitHub
+ - Memahami pengertian dan tujuan Algoritma
+ - Coming soon...
