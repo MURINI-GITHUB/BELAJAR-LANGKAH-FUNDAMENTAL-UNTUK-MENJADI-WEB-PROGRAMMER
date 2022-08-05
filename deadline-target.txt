@@ -2,5 +2,5 @@ TARGET WAKTU BELAJAR
  - Saya harus bisa menyelesaikan pelatihan fundamental untuk menjadi web programmer ini sampai dengan tanggal 14 Agustus 2022
  - Dengan demikian, saya harus bisa mengatur sebaik mungkin untuk mempelajari semua materi yang diberikan oleh Hacktiv8
  - Oleh karena itu untuk minggu ini saya harus bisa menyelesaikan tiga materi, mulai dari HTML5, CSS3, dan Algoritma
- - Setelah itu pada minggu berikutnya dilanjut belajar serta melakukan praktik Javascript dan DOM
+ - Kemudian minggu berikutnya fokus belajar dan praktik Javascript dan DOM  
  - Pada minggu terakhir deadline saya harus bisa menerapkan semua materi yang telah saya pelajari untuk membuat website portofolio online
