@@ -1,0 +1,4 @@
+Perkenalkan nama saya Ahmad Wildan. Saya ingin memberikan saran terkait repository pelatihan ini.
+Mungkin bisa ditambahkan project bertahap di setiap materi yang telah dipelajari.
+Seperti contoh, materi HTML telah tuntas, mungkin bisa membuat project sederhana menyangkut HTML saja.
+Dan berlaku untuk tiap materi selanjutnya. Ini bisa menjadikan kamu lebih baik lagi dalam melakukan coding.
