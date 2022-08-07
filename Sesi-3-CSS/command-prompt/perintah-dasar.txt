@@ -1,0 +1,16 @@
+Navigasi ke berbagai directory/folder
+ > cd "alamat folder tujuan"
+Membuat file dan folder baru
+ > echo "isi file" > "nama file" dan mkdir "nama folder"
+Menghapus file dan folder
+ > del "nama file" dan rmdir "nama folder"
+Melihat berbagai file yang ada di folder
+ > dir
+Mengetahui lokasi folder di mana kita berada
+ > chdir
+Memindahkan file ke berbagai folder
+ > move "nama file" "folder tujuan"
+Menyalin file atau folder ke tempat berbeda
+ > xcopy "nama file" "folder tujuan"
+Membuka atau mengubah file ke dalam editor teks/code
+ > notepad "nama file"

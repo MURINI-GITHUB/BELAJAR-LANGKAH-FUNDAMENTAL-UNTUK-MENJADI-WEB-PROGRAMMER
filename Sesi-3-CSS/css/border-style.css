@@ -1,0 +1,39 @@
+body {
+   background-color: crimson;
+   color: white;
+}
+.judul, .sub-judul {
+   text-align: center;
+}
+.border-solid {
+   border-style: solid;
+   padding: 20px;
+}
+.border-dotted {
+   border-style: dotted;
+   padding: 20px;
+}
+.border-dashed {
+   border-style: dashed;
+   padding: 20px;
+}
+.border-double {
+   border-style: double;
+   padding: 20px;
+}
+.border-groove {
+   border-style: groove;
+   padding: 20px;
+}
+.border-inset {
+   border-style: inset;
+   padding: 20px;
+}
+.border-outset {
+   border-style: outset;
+   padding: 20px;
+}
+.border-ridge {
+   border-style: ridge;
+   padding: 20px;
+}

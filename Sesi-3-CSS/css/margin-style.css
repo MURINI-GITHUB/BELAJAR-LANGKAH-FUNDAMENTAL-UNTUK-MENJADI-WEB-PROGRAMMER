@@ -1,0 +1,19 @@
+body {
+   background-color: darkorange;
+   color: white;
+}
+h1, h2 {
+   text-align: center;
+}
+.box-satu {
+   background-color: lightseagreen;
+   height: 200px;
+   width: 400px;
+   margin: 40px;
+}
+.box-dua {
+   background-color: crimson;
+   height: 200px;
+   width: 600px;
+   margin-left: 400px;
+}

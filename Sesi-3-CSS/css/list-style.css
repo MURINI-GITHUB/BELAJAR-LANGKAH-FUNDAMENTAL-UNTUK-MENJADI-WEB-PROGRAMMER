@@ -1,0 +1,31 @@
+body {
+   background-color: crimson;
+   color: white;
+}
+.judul, .sub-judul {
+   text-align: center;
+}
+.list-square {
+   list-style-type: square;
+   font-size: 20px;
+}
+.list-circle {
+   list-style-type: circle;
+   font-size: 20px;
+}
+.list-lower-roman {
+   list-style-type: lower-roman;
+   font-size: 20px;
+}
+.list-upper-roman {
+   list-style-type: upper-roman;
+   font-size: 20px;
+}
+.list-lower-alpha {
+   list-style-type: lower-alpha;
+   font-size: 20px;
+}
+.list-upper-alpha {
+   list-style-type: upper-alpha;
+   font-size: 20px;
+}

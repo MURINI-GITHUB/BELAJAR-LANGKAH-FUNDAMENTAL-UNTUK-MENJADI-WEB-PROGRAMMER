@@ -1,0 +1,18 @@
+body {
+   background-color: darkorange;
+   color: white;
+   text-align: center;
+}
+.box-satu {
+   background-color: lightseagreen;
+   width: 280px;
+   margin: auto;
+   padding: 20px;
+}
+.box-dua {
+   background-color: crimson;
+   height: 200px;
+   width: 280px;
+   margin: auto;
+   padding-left: 100px;
+}

@@ -1,0 +1,36 @@
+body {
+   background-color: crimson;
+   color: white;
+}
+.judul, .sub-judul {
+   text-align: center;
+}
+.position-absolute {
+   background-color: darkviolet;
+   line-height: 50px;
+   letter-spacing: 1px;
+   word-spacing: 1px;
+   position: absolute;
+}
+.position-relative {
+   background-color: darkcyan;
+   line-height: 50px;
+   letter-spacing: 1px;
+   word-spacing: 1px;
+   position: relative;
+   top: 160px;
+}
+.position-static {
+   background-color: darkorange;
+   line-height: 50px;
+   letter-spacing: 1px;
+   word-spacing: 1px;
+   position: static;
+}
+.position-fixed {
+   background-color: darksalmon;
+   line-height: 50px;
+   letter-spacing: 1px;
+   word-spacing: 1px;
+   position: fixed;
+}

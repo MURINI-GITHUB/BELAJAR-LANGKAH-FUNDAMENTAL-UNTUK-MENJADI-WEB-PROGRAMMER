@@ -1,0 +1,222 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Comic sans ms;
+}
+body {
+   background-color: ghostwhite;
+}
+
+/* Navbar (Navigasi Menu) */
+.navigasi-menu {
+   background-color: crimson;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   text-align: right;
+   padding: 28px;
+   box-shadow: 0px 4px 10px darkgrey;
+}
+.navigasi-menu h1 {
+   position: absolute;
+   float: left;
+   top: 14px;
+   font-family: Forte;
+   margin-left: 60px;
+   color: white;
+   font-size: 36px;
+}
+.navigasi-menu h2 {
+   display: none;
+}
+.navigasi-menu ul {
+   margin-right: 60px;
+}
+.navigasi-menu ul li {
+   display: inline-block;
+   padding-left: 28px;
+}
+.navigasi-menu a {
+   text-decoration: none;
+   color: white;
+   font-size: large;
+}
+.navigasi-menu a:hover {
+   border-bottom: 2px solid white;
+}
+
+/* Content Box Profile */
+.box-profile {
+   padding-top: 10%;
+   height: 700px;
+   text-align: center;
+   background-color: white;
+}
+.box-profile h1 {
+   text-transform: uppercase;
+   font-size: 40px;
+}
+.box-profile h2 {
+   margin-bottom: 10px;
+}
+.box-profile p {
+   margin: auto;
+   width: 38%;
+   margin-top: 10px;
+}
+.sosmed-button {
+   margin-top: 10px;
+}
+.sosmed-button button {
+   background-color: crimson;
+   border: none;
+   color: white;
+   font-weight: bold;
+   padding: 6px;
+   border-radius: 3px;
+   cursor: pointer;
+}
+
+/* Content Box Portofolio */
+.box-portofolio {
+   margin-top: 4%;
+   height: 1560px;
+}
+.box-portofolio h1 {
+   text-align: center;
+   margin-bottom: 4px;
+}
+.box-portofolio hr {
+   margin: auto;
+   width: 21%;
+   height: 4px;
+}
+.list-portofolio {
+   text-align: center;
+}
+.data-portofolio {
+   display: inline-block;
+   width: 28%;
+   border: solid #f1f1f1;
+   border-radius: 5px;
+   margin-top: 4%;
+   margin-right: 20px;
+   background-color: white;
+   padding: 20px;
+   box-shadow: 0px 4px 10px darkgrey;
+}
+.data-portofolio p {
+   text-align: justify;
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
+.data-portofolio button {
+   border: solid #f1f1f1;
+   border-radius: 3px;
+   width: 100%;
+   padding: 10px;
+   background-color: crimson;
+   color: white;
+   font-size: large;
+   transition: 0.5s;
+   cursor: pointer;
+}
+.data-portofolio button:hover {
+   box-shadow: 1px 2px 10px grey;
+   transition: 0.5s;
+}
+.data-portofolio button:active {
+   transform: scale(0.9);
+}
+
+/* Content Box Contact */
+.box-contact {
+   background-color: white;
+   height: 670px;
+}
+.box-contact h1 {
+   text-align: center;
+   margin-bottom: 4px;
+   padding-top: 4%;
+}
+.box-contact hr {
+   margin: auto;
+   width: 16%;
+   height: 4px;
+}
+.box-form {
+   background-color: ghostwhite;
+   margin: auto;
+   margin-top: 4%;
+   width: 60%;
+   padding: 20px;
+   box-shadow: 0px 8px 10px #f1f1f1;
+}
+.box-inputan {
+   display: inline-block;
+   width: 49.6%;
+   margin-bottom: 20px;
+}
+.form-input {
+   padding: 8px;
+   border: solid #f1f1f1;
+   margin-top: 8px;
+   outline: none;
+   width: 100%;
+}
+.form-input:focus {
+   box-shadow: 0px 4px 10px #d1d1d1;
+   transition: 0.5s;
+}
+.box-form button {
+   margin-top: 20px;
+   border: solid #f1f1f1;
+   border-radius: 3px;
+   width: 16%;
+   padding: 5px;
+   background-color: crimson;
+   color: white;
+   font-size: 16px;
+   transition: 0.5s;
+   cursor: pointer;
+}
+.box-form button:hover {
+   box-shadow: 1px 2px 10px grey;
+   transition: 0.5s;
+}
+.box-form button:active {
+   transform: scale(0.9);
+}
+
+/* Content Box About */
+.box-about {
+   margin-top: 4%;
+   height: 560px;
+   text-align: center;
+}
+.box-about h1 {
+   text-align: center;
+   margin-bottom: 4px;
+}
+.box-about hr {
+   margin: auto;
+   width: 8%;
+   height: 4px;
+   margin-bottom: 4%;
+}
+.box-about h2 {
+   margin-bottom: 10px;
+}
+.box-about p {
+   margin: auto;
+   width: 38%;
+   margin-top: 10px;
+}
+.footer {
+   background-color: crimson;
+   text-align: center;
+   padding: 18px;
+   color: white;
+   box-shadow: 10px 4px 20px darkgrey;
+}

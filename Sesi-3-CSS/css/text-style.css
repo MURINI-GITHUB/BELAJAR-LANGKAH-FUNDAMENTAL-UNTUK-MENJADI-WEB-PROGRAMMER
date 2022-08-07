@@ -1,0 +1,19 @@
+body {
+   background-color: crimson;
+   color: white;
+}
+.judul, .sub-judul {
+   text-align: center;
+}
+.font-left {
+   text-align: left;
+}
+.font-right {
+   text-align: right;
+}
+.font-center {
+   text-align: center;
+}
+.font-justify {
+   text-align: justify;
+}

@@ -1,0 +1,39 @@
+# Pengenalan Git dan GitHub
+  Git dan GitHub merupakan dua hal yang berbeda. Kita bisa bekerja dengan Git tanpa GitHub, bekerja dengan GitHub tanpa Git, dan juga bisa melakukan kombinasi pekerjaan antara keduanya. Git merupakan salah satu dari VCS (Version Control System) yang terdistribusi untuk mengelola segala perubahan file di dalam folder (repository). Riwayat perubahan file tersebut disimpan menggunakan serangkaian commit (detail perubah).
+  VCS sendiri disebut juga sebagai (Revision Control System) atau (Source Code Management) yang merupakan sistem pengelola perubahan dari sebuah dokumen, program, komputer, website, dan kumpulan informasi lain yang dibuat secara digital. Sedangkan GitHub sendiri merupakan website layanan cloud untuk menyimpan dan mengelola proyek dengan sistem Git. 
+
+# Mengapa Menggunakan Version Control System?
+  Digunakan sebagai wadah kolaborasi proyek antar sekelompok orang (programmer) supaya pekerjaan proyek menjadi jauh lebih mudah, fleksibel, dan efisien.
+
+# Istilah-Istilah Git
+  repository -> folder proyek
+  commit -> rekaman detail perubahan dari isi repository
+  hash -> penanda unik pada sebuah commit
+  checkout -> berpindah ke sebuah commit
+  branch -> cabang bebas dari sebuah commit
+  merge -> menggabungkan branch
+  remote -> sumber yang memiliki repository
+  clone -> mengambil repository dari remote
+  push -> mengirimkan commit ke repository
+  pull -> mengambil commit dari repository
+  
+# Git Command (Local)
+  $ git init -> merubah status folder menjadi repository (branch utama)
+  $ git add -> menambah perubahan file ke staged area
+  $ git status -> melihat status perubahan file di repository
+  $ git commit -> mengirim commit detail perubahan pada file
+  $ git checkout -> mengembalikan kondisi commit pada commit tertentu dan berpindah branch
+  $ git reset -> mengeluarkan file yang telah di-add keluar staged area (unstaged)
+  $ git log -> melihat detail history commit
+  $ git log --all --decorate --oneline --graph -> membuat history commit lebih ringkas
+  $ git branch -> melihat dan membuat brand baru
+  $ git branch --merged -> melihat status merge branch
+  $ git branch -d -> menghapus branch
+  $ git merge -> menyatukan commit branch turunan ke branch utama
+  $ git clone -> mengambil repo dari Github untuk di-remote melalui local
+  $ git push -> mengirim perubah commit baru dari local ke Github
+  $ alias -> membuat ringkasan terhadap banyak kode
+
+# Jenis Merge Branch
+  $ Fast Forward -> Penggabungan branch (merge) dalam satu jalur
+  $ Three-way Merge -> Penggabungan branch (merge) tidak dalam satu jalur
