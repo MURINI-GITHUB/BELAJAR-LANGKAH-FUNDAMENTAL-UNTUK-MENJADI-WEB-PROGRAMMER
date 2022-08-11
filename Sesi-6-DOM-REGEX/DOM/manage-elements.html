@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Sesi Javascript DOM</title>
+</head>
+<body>
+   <h1>Belajar Menambah dan Menghapus Element dengan DOM API</h1>
+   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure veniam omnis odio. Quos pariatur assumenda rerum temporibus repudiandae autem alias quia voluptate, voluptas reprehenderit aut minima non sint esse.</p>
+   <script>
+      var title = document.createElement("h1");
+      var rmsubtitle = document.createElement("h2");
+      
+      title.textContent = "Judul Ini Ditambah Menggunakan DOM API";
+      rmsubtitle.textContent = "Element Ini Dihapus dengan DOM API";
+      
+      document.body.append(title);
+      rmsubtitle.remove();
+
+      console.log("Element sudah dihapus");
+      console.log(rmsubtitle);
+   </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Sesi Belajar Javascript REGEX</title>
+</head>
+<body>
+   <script>
+      var title = "Belajar Javascript Regex";
+      var phonenumber = "082098231234";
+      var validation = /[a-zA-Z0-9]/;
+      
+      console.log(validation.test(title));
+      console.log(validation.test(phonenumber));
+      // Bisa langsung menggunakan penulisan literal
+      console.log(/Belajar Regex 808/.test(title));
+   </script>
+</body>
+</html>

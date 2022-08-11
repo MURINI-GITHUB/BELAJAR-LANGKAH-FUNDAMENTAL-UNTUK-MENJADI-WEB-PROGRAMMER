@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Looping</title>
+</head>
+<body>
+   <h1>Belajar Menggunakan Perulangan di Javascript</h1>
+   <input type="text" id="message" placeholder="Message">
+   <input type="number" id="valuelenght" placeholder="Jumlah print">
+   <button onclick="startprint()">Print Data</button>
+   <ol id="result"></ol>
+   
+   <script>
+      function startprint() {
+         var message = document.getElementById("message").value;
+         var valuelenght= document.getElementById("valuelenght").value;
+         var start = 1;
+
+         for (start; start <= valuelenght; start++) {
+            document.getElementById("result").innerHTML += "<li>" + message + "</li>";
+         }
+      }
+   </script>
+</body>
+</html>

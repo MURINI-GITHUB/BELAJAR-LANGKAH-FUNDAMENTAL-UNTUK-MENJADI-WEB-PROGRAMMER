@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Conditional</title>
+</head>
+<body>
+   <h1>Belajar Conditional Javascript</h1>
+   <h2>Mengecek Kondisi Lapar atau Tidak</h2>
+   <select id="inputcheck">
+      <option value="">- Pilih Kondisi -</option>
+      <option value="Lapar">Lapar</option>
+      <option value="Tidak">Tidak Lapar</option>
+   </select>
+   <button onclick="checkcondition()">Cek Kondisi</button>
+   <h3 id="output">Output kondisi keluar di sini</h3><hr>
+
+   <h2>Grade Nilai Siswa</h2>
+   <input id="inputgrade" type="number">
+   <button onclick="checkgrade()">Grade Nilai</button>
+   <h3 id="outputgrade">Grade nilai kamu keluar di sini!</h3>
+   
+   <script>
+      function checkcondition() {
+         if (document.getElementById("inputcheck").value == "Lapar") {
+            document.getElementById("output").innerHTML = "Segera makan!";
+         }
+         else if (document.getElementById("inputcheck").value == "Tidak") {
+            document.getElementById("output").innerHTML = "Olahraga sana biar lapar!";
+         }
+         else {
+            document.getElementById("output").innerHTML = "Pilih dulu kondisinya mas bro!";
+         }
+      }
+
+      function checkgrade() {
+         if (document.getElementById("inputgrade").value == "") {
+            document.getElementById("outputgrade").innerHTML = "Nilai harus diisi!";
+         }
+         else if (document.getElementById("inputgrade").value >= 90 && document.getElementById("inputgrade").value <= 100) {
+            document.getElementById("outputgrade").innerHTML = "Selamat, kamu mendapatkan Grade A!";
+         }
+         else if (document.getElementById("inputgrade").value >= 80 && document.getElementById("inputgrade").value < 90) {
+            document.getElementById("outputgrade").innerHTML = "Selamat, kamu mendapatkan Grade B!";
+         }
+         else if (document.getElementById("inputgrade").value >= 70 && document.getElementById("inputgrade").value < 80) {
+            document.getElementById("outputgrade").innerHTML = "Kamu mendapatkan Grade C, tingkatkan lagi ya!";
+         }
+         else if (document.getElementById("inputgrade").value >= 60 && document.getElementById("inputgrade").value < 70) {
+            document.getElementById("outputgrade").innerHTML = "Kamu mendapatkan Grade D, segera minta remidi ya!";
+         }
+         else if (document.getElementById("inputgrade").value < 60 && document.getElementById("inputgrade").value >= 0) {
+            document.getElementById("outputgrade").innerHTML = "Kamu tidak lulus!";
+         }
+         else {
+            document.getElementById("outputgrade").innerHTML = "Nilai tidak valid!";
+         }
+      }
+   </script>
+</body>
+</html>

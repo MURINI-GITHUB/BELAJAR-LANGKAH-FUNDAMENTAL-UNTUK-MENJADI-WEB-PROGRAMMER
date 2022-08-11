@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Operator Aritmatika</title>
+</head>
+<body>
+   <h1>Cara Menggunakan Operator Aritmatika di Javascript</h1>
+   <h2>Nilai Eksekusi : 100 dan 10</h2>
+   <ul>
+      <li><h3 id="penjumlahan"></h3></li>
+      <li><h3 id="pengurangan"></h3></li>
+      <li><h3 id="perkalian"></h3></li>
+      <li><h3 id="pembagian"></h3></li>
+      <li><h3 id="modulus"></h3></li>
+      <li><h3 id="increment"></h3></li>
+      <li><h3 id="decrement"></h3></li>
+   </ul>
+
+   <script>
+      var firstvalue = 100;
+      var secondvalue = 10;
+
+      var penjumlahan = firstvalue + secondvalue;
+      document.getElementById("penjumlahan").innerHTML = "Hasil penjumlahan : " + penjumlahan;
+
+      var pengurangan = firstvalue - secondvalue;
+      document.getElementById("pengurangan").innerHTML = "Hasil pengurangan : " + pengurangan;
+
+      var perkalian = firstvalue * secondvalue;
+      document.getElementById("perkalian").innerHTML = "Hasil perkalian : " + perkalian;
+
+      var pembagian = firstvalue / secondvalue;
+      document.getElementById("pembagian").innerHTML = "Hasil pembagian : " + pembagian;
+
+      var modulus = firstvalue % secondvalue;
+      document.getElementById("modulus").innerHTML = "Hasil modulus : " + modulus;
+      
+      var increment = 100;
+      increment++;
+      document.getElementById("increment").innerHTML = "Hasil increment dari 100 : " + increment;
+
+      var decrement = 10;
+      decrement--;
+      document.getElementById("decrement").innerHTML = "Hasil decrement dari 10 : " + decrement;
+   </script>
+</body>
+</html>

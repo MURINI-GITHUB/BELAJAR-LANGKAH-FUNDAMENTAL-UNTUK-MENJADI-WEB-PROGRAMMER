@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Event</title>
+</head>
+<body onload="alert('Hello, ini event onload!')">
+   <h1>Cara Menggunakan Event di Javascript</h1>
+   
+   <h2>1. Event Onchange</h2>
+   <select id="select" onchange="onchangetest()">
+      <option value="">Pilih nomor</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+   </select>
+
+   <h2>2. Event Onclick</h2>
+   <button onclick="onclicktest()">Click Me!</button>
+   <h3 id="tampilonclick"></h3>
+
+   <h2>3. Event Onmouseover dan Onmouseout</h2>
+   <p id="paragraf" onmouseover="onmouseovertest()" onmouseout="onmouseouttest()" style="width: 40%;">Geser mouse kesini : Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi maiores voluptatem, minima pariatur consequuntur unde neque, error assumenda ullam accusantium dolorem illum eveniet dignissimos ut eligendi tenetur harum itaque. Aliquid!</p>
+
+   <h2>4. Event Onkeydown</h2>
+   <strong>Input nama lengkap : </strong> <input type="text" id="inputnama" onkeydown="onkeydowntest()">
+
+   <h2>5. Event Onload</h2>
+   <p>Event ini terletak di tag body. Onload hanya berfungsi ketika halaman terbuka dan ter-refresh</p>
+
+   <script src="js/event.js"></script>
+</body>
+</html>

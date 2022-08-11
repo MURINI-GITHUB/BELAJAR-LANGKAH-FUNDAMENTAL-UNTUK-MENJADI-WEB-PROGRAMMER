@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Function dan Event</title>
+</head>
+<body>
+   <h1>Hitung Mundur Maju</h1>
+   <h2>Mulai Hitung : <span id="numb">10</span></h2>
+   <button onclick="incrementest()">Hitung Maju</button>
+   <button onclick="decrementest()">Hitung Mundur</button>
+   <script>
+      var setnumber = 10;
+      function incrementest() {
+         setnumber++;
+         document.getElementById("numb").innerHTML = setnumber;
+      }
+      function decrementest() {
+         setnumber--;
+         document.getElementById("numb").innerHTML = setnumber;
+      }
+   </script>
+</body>
+</html>

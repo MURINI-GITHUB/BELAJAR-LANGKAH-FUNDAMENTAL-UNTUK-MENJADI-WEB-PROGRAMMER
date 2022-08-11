@@ -1,0 +1,7 @@
+# Pseudocode - Menghitung Luas dan Keliling Lingkaran
+  -> Deklarasi variabel r;
+  -> Deklarasi variabel phi = 3.14;
+  -> Input nilai r;
+  -> Deklarasi variabel luas = phi * r * r;
+  -> Deklarasi variabel keliling = 2 * phi * r;
+  -> Output variabel (luas dan keliling);

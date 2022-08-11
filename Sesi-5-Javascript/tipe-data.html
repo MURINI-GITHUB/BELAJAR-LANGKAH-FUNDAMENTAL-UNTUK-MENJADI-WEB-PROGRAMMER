@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Tipe Data</title>
+</head>
+<body>
+   <h1>Cara Menggunakan Tipe Data di Javascript</h1>
+   
+   <h2>1. Tipe Data Integer/Number (bilangan bulat)</h2>
+   <h3 id="integer"></h3>
+
+   <h2>2. Tipe Data String (text)</h2>
+   <h3 id="string"></h3>
+   
+   <h2>3. Tipe Data Boolean (tipe data dengan nilai true(1) & False(0))</h2>
+   <h3 id="boolean"></h3>
+   
+   <h2>4. Tipe Data Array (sekumpulan nilai yang urutan pertama dihitung dari indeks ke-0)</h2>
+   <h3 id="array"></h3>
+   
+   <h2>5. Tipe Data Object (sekumpulan nilai yang memiliki parent)</h2>
+   <h3 id="object"></h3>
+
+   <script>
+      // Tipe Data Integer/Number
+      var firstvalue = 10;
+      var secondvalue = 90;
+      var count = firstvalue + secondvalue;
+      document.getElementById("integer").innerHTML = count;
+
+      // Tipe Data String (nilai diapit dengan tanda petik 2)
+      var description = "Saya senang belajar javascript";
+      document.getElementById("string").innerHTML = description;
+
+      // Tipe Data Boolean
+      var firstboolean = true;
+      var secondboolean = false;
+      var booleanoutput = firstboolean + " dan " + secondboolean;
+      document.getElementById("boolean").innerHTML = booleanoutput;
+
+      // Tipe Data Array
+      var merkmobil = ["Yamaha", "Honda", "Kawasaki", "Suzuki", "Toyota"];
+      var doubleoutput = merkmobil[1] + " dan " + merkmobil[4];
+      document.getElementById("array").innerHTML = doubleoutput;
+
+      // Tipe Data Object
+      var manusia = {
+         name : "Ahmad Wildan",
+         asal : "Bondowoso",
+         usia : 18,
+      }
+      document.getElementById("object").innerHTML = manusia.name + ", " + manusia.asal + ", " + manusia.usia;
+   </script>
+</body>
+</html>

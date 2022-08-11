@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Latihan Javascript DOM</title>
+</head>
+<body>
+   <h1>Aplikasi Ubah Warna</h1>
+   <h3>Pilih Warna Latar Belakang*</h3>
+   <input type="color" id="backgroundcolor">
+   <h3>Pilih Warna Tulisan*</h3>
+   <input type="color" id="textcolor">
+
+   <script>
+      var backgroundcolor = document.getElementById('backgroundcolor');
+      var textcolor = document.getElementById('textcolor');
+
+      backgroundcolor.addEventListener("change", (event) => {
+         document.body.style.backgroundColor = backgroundcolor.value;
+      });
+
+      textcolor.addEventListener("change", (event) => {
+         document.body.style.color = textcolor.value;
+      });
+   </script>
+</body>
+</html>

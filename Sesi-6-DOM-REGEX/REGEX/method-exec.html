@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Sesi Belajar Javascript REGEX</title>
+</head>
+<body>
+   <script>
+      // Method exec() berfungsi untuk mencari karakter atau kata yang cocok dengan pola regular expression, kemudian menyimpan hasilnya ke dalam array.
+      var title = "Satu jam sama dengan 60 puluh menit dan juga sama dengan 3600 detik";
+      // Pattern \d+ artinya cari karakter angka dengan jumlah digit 1 atau lebih.
+      var firstpattern = /\d+/;
+      console.log(firstpattern.exec(title));
+      // Pattern /\d+/g artinya cari semua digit karakter angka.
+      var secondpattern = /\d+/g;
+      console.log(secondpattern.exec(title));
+      console.log(secondpattern.exec(title));
+      console.log(secondpattern.exec(title));
+      // Setiap kali method exec() dipanggil, pencarian pola akan lanjut ke posisi berikutnya. Jika tidak adalagi pola yang cocok, method ini akan mengembalikan nilai null.
+   </script>
+</body>
+</html>

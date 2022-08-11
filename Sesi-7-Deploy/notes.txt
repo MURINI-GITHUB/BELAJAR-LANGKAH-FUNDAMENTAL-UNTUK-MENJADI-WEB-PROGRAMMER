@@ -1,0 +1,12 @@
+# Langkah-langkah Deploy
+  > echo '<?php include_once("index.html"); ?>' > index.php
+  > echo '{}' > composer.json
+  > heroku login
+  > git init
+  > git add .
+  > git commit -m “message_commit”
+  > heroku create
+  > git bash -M main
+  > git push heroku master
+ 
+# Link Deploy : https://lit-beyond-08529.herokuapp.com/
